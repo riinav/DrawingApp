@@ -29,9 +29,9 @@ public class Triangle {
         return type;
     }
 
-//    public void setType(String type) {
-//        this.type = type;
-//    }
+    public void setType(String type) {
+        this.type = type;
+    }
 
     public int getHeight() {
         return height;

@@ -14,6 +14,13 @@
 
     </bean>
     
+    <alias name="triangle" alias="triangle-alias"/>
+    
+    <!-- use of 'name' as a alias -->
+    <bean id="triangle4" class="drawingapp.Triangle" name = "triangle-name">
+        <property name="type" value="Equilaterial"/>
+    </bean>
+    
     <bean id="zeroPoint" class="drawingapp.Point">
         <property name="x" value="0"/>
         <property name="y" value="0"/>
@@ -35,8 +42,7 @@
         <property name="pointC" ref="point3"/>
     </bean>
     
-    <bean id="triangle2" class="drawingapp.Triangle1">
-        convergentInfotech.com
+    <bean id="triangle2" class="drawingapp.Triangle1">     
         <property name="pointA" ref="zeroPoint"/>
         
         <property name="pointB" >

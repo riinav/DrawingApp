@@ -22,11 +22,19 @@ public class DrawingApp {
         t.draw();
         System.out.println("------------");
         
+        // using alias
+        t = (Triangle) context.getBean("triangle-name");
+        t.draw();
+        
+        System.out.println("------------");
         Triangle1 t1 = (Triangle1) context.getBean("triangle1");
         t1.draw();
         System.out.println("------------");
         
         t1 = (Triangle1) context.getBean("triangle2");
         t1.draw();
+        System.out.println("------------");
+        
+        
     }
 }
