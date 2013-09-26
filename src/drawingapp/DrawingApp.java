@@ -20,8 +20,13 @@ public class DrawingApp {
 
         //Triangle t = new Triangle();
         t.draw();
+        System.out.println("------------");
         
         Triangle1 t1 = (Triangle1) context.getBean("triangle1");
+        t1.draw();
+        System.out.println("------------");
+        
+        t1 = (Triangle1) context.getBean("triangle2");
         t1.draw();
     }
 }
