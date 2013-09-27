@@ -35,6 +35,8 @@ public class DrawingApp {
         t1.draw();
         System.out.println("------------");
         
-        
+        Triangle2 t2 = (Triangle2) context.getBean("triangle6");
+        t2.draw();
+        System.out.println("------------");
     }
 }

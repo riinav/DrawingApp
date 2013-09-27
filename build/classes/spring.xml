@@ -59,4 +59,15 @@
             </bean>
         </property>
     </bean>
+    
+    <bean id="triangle6" class="drawingapp.Triangle2">
+        <property name="points">
+            <list>
+                <ref bean="zeroPoint"/> 
+                <ref bean="point2"/> 
+                <ref bean="point3"/> 
+            </list>
+        </property>
+        
+    </bean>
 </beans>
