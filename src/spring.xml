@@ -67,7 +67,6 @@
                 <ref bean="point2"/> 
                 <ref bean="point3"/> 
             </list>
-        </property>
-        
+        </property>       
     </bean>
 </beans>
